@@ -40,19 +40,19 @@ namespace IterationStatements
 
             // Create a while loop
             // <--- While num is less than 200
-            
-                // Increment num by 1
-                // Then add num to the collection numbers
-                    //HINT: copy how this was done in the do while loop
 
-            
+            // Increment num by 1
+            // Then add num to the collection numbers
+            //HINT: copy how this was done in the do while loop
+
+
             while (num < 200)
             {
                 Console.WriteLine();
                 num++;
                 numbers.Add(num);
 
-
+            }
 
                 // This is to show the user that the numbers will start increasing on the console           
                 Console.WriteLine("Increase:");
@@ -88,7 +88,7 @@ namespace IterationStatements
                 
                 
                 //------------End of exercise
-            }
+            
         }
     }
 }
